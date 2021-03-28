@@ -2,85 +2,71 @@ body {
     text-align: center;
     background-color: #3198b1;
 }
-
 h1 {
     font-size: 5rem;
     color: #ffde24;
-    font-family: 'Arvo', cursive;
-    text-shadow: 1px 0 rgb(165, 117, 117);
+    font-family: Arvo, cursive;
+    text-shadow: 1px 0 #a57575;
 }
-
 footer {
     color: #dbedf3;
     font-family: sans-serif;
 }
-
 .w {
-    background-image: url('images/tom1.png');
+    background-image: url(images/tom1.png);
     background-size: contain;
     text-shadow: 3px 0 #da0463;
 }
-
 .a {
-    background-image: url('images/tom2.png');
+    background-image: url(images/tom2.png);
     background-size: contain;
     text-shadow: 3px 0 #da0463;
 }
-
 .s {
-    background-image: url('images/tom3.png');
+    background-image: url(images/tom3.png);
     background-size: contain;
     text-shadow: 3px 0 #da0463;
 }
-
 .d {
-    background-image: url('images/tom4.png');
+    background-image: url(images/tom4.png);
     background-size: contain;
     text-shadow: 3px 0 #da0463;
 }
-
 .j {
-    background-image: url('images/snare.png');
+    background-image: url(images/snare.png);
     background-size: contain;
     text-shadow: 3px 0 #da0463;
 }
-
 .k {
-    background-image: url('images/crash.png');
+    background-image: url(images/crash.png);
     background-size: contain;
     text-shadow: 3px 0 #da0463;
 }
-
 .l {
-    background-image: url('images/kick.png');
+    background-image: url(images/kick.png);
     background-size: contain;
     text-shadow: 3px 0 #da0463;
 }
-
 .set {
     margin: 10% auto;
 }
-
 .game-over {
     background-color: red;
     opacity: 0.8;
 }
-
 .pressed {
     box-shadow: 0 3px 4px 0 #dbedf3;
     opacity: 0.5;
 }
-
 .red {
     color: red;
 }
-
 .drum {
     box-shadow: rgba(8, 8, 8, 0.1);
-    outline: none;
+    outline: 0;
     border: 10px solid #ffde24;
     font-size: 4rem;
-    font-family: 'Arvo', cursive;
+    font-family: Arvo, cursive;
     line-height: 2;
     font-weight: 900;
     color: #ffde24;
@@ -91,8 +77,8 @@ footer {
     height: 150px;
     text-align: center;
     margin: 10px;
-    background-color: white;
+    background-color: #fff;
 }
 button {
-    box-shadow: mediumblue;
+    box-shadow: #0000cd;
 }
