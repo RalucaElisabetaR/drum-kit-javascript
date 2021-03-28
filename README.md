@@ -1,4 +1,4 @@
-# Drum Kit project with Vanilla JavaScript.
+#  [Vanilla JavaScript Drum Kit challange](https://ralucaelisabetar.github.io/drum-kit-javascript/)
 
 >DOM Manipulation :heavy_check_mark:
 
