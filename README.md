@@ -1,5 +1,7 @@
 #  [Vanilla JavaScript Drum Kit challange](https://ralucaelisabetar.github.io/drum-kit-javascript/)
 
+# This challange is the perfect way to practice the intermediate to advanced parts of the Document Object Model. 
+
 >DOM Manipulation :heavy_check_mark:
 
 >Control Structures :heavy_check_mark:
