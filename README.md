@@ -1,4 +1,4 @@
-#  [Vanilla JavaScript Drum Kit challange](https://ralucaelisabetar.github.io/drum-kit-javascript/)
+#  [JavaScript Drum Kit challange](https://ralucaelisabetar.github.io/drum-kit-javascript/)
 
 # This challange is the perfect way to practice the intermediate to advanced parts of the Document Object Model. 
 
