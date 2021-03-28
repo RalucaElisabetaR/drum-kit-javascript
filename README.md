@@ -1,11 +1,97 @@
-# Drum Kit project with Vanilla JavaScript.
+#  [JavaScript Drum Kit challange](https://ralucaelisabetar.github.io/drum-kit-javascript/)
 
->DOM Manipulation
+# This challange is the perfect way to practice the intermediate to advanced parts of the Document Object Model. 
 
->Control Structures
+>DOM Manipulation :heavy_check_mark:
 
->HTML Audio API
+>Control Structures :heavy_check_mark:
 
->JavaScript CSS Manipulation
+>HTML Audio API :heavy_check_mark:
 
->addEventListener
+>JavaScript CSS Manipulation :heavy_check_mark:
+
+>addEventListener :heavy_check_mark:
+
+````javascript
+let numberOfDrumButtons = document.querySelectorAll(".drum").length;
+
+for (let i = 0; i < numberOfDrumButtons; i++) {
+
+  document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+
+    let buttonInnerHTML = this.innerHTML;
+
+    makeSound(buttonInnerHTML);
+
+    buttonAnimation(buttonInnerHTML);
+
+  });
+
+}
+
+document.addEventListener("keydown", function(event) {
+
+  makeSound(event.key);
+
+  buttonAnimation(event.key);
+
+});
+
+
+function makeSound(key) {
+
+  switch (key) {
+    case "w":
+      let tom1 = new Audio("sounds/tom-1.mp3");
+      tom1.play();
+      break;
+
+    case "a":
+      let tom2 = new Audio("sounds/tom-2.mp3");
+      tom2.play();
+      break;
+
+    case "s":
+      let tom3 = new Audio('sounds/tom-3.mp3');
+      tom3.play();
+      break;
+
+    case "d":
+      let tom4 = new Audio('sounds/tom-4.mp3');
+      tom4.play();
+      break;
+
+    case "j":
+      let snare = new Audio('sounds/snare.mp3');
+      snare.play();
+      break;
+
+    case "k":
+      let crash = new Audio('sounds/crash.mp3');
+      crash.play();
+      break;
+
+    case "l":
+      let kick = new Audio('sounds/kick-bass.mp3');
+      kick.play();
+      break;
+
+
+    default: console.log(key);
+
+  }
+}
+
+
+function buttonAnimation(currentKey) {
+
+  let activeButton = document.querySelector("." + currentKey);
+
+  activeButton.classList.add("pressed");
+
+  setTimeout(function() {
+    activeButton.classList.remove("pressed");
+  }, 100);
+
+}
+
